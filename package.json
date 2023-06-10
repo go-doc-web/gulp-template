@@ -1,0 +1,33 @@
+{
+  "name": "gulp-template",
+  "version": "1.0.0",
+  "description": "build gulp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node gulp",
+    "build": "node build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/go-doc-web/gulp-template.git"
+  },
+  "author": "Hubskiy Oleh <gubskyolegod@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/go-doc-web/gulp-template/issues"
+  },
+  "homepage": "https://github.com/go-doc-web/gulp-template#readme",
+  "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify-es": "^3.0.0",
+    "sass": "^1.63.3",
+    "swiper": "^9.3.2"
+  },
+  "dependencies": {
+    "gulp-concat": "^2.6.1"
+  }
+}
