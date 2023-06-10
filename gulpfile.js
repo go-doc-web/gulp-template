@@ -44,7 +44,7 @@ function browsersync() {
 }
 
 function cleanDist() {
-  return src("dist/").pipe(clean());
+  return src("dist").pipe(clean());
 }
 
 function building() {
